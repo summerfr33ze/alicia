@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "greatvibes";
+    src: url("./fonts/GreatVibes-Regular.ttf");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("./fonts/Montserrat.ttf")
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    height: 12vh;
+    font-size: 4vh;
+    background-color: black;
+    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color:hotpink;
+    background-color: 		#282828;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10%;
+    padding: 0px 3px 0px 3px;
+    font-family: greatvibes;
+    font-size: 80px;
+    margin-left: 10vh;
+    
+}
+
+.title:hover {
+    color: white;
+}
+
+.profile {
+    
+    border-radius: 50%;
+}
+
+.dave {
+    height: 30vh;
+    margin-top: 5vh;
+    border-radius: 25%;
+    box-shadow: 3px 3px 10px;
+}
+
+.dave:hover {
+    box-shadow: 3px 3px 10px white;
+}
+
+.main {
+    font-size:  15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5vh;
+    background-color: hotpink;
+    height: 90vh;
+    font-family: Montserrat;
+
+}
+
+.seals {
+    border-radius: 25%;
+    height: 15vh;
+    margin-top: 10vh;
+}
+
+footer {
+    display: fixed;
+    bottom: 0;
+    text-align: center;
+    color: hotpink;
+    background-color: black;
+    font-size: 25px;
+    height: 5vh;
+}
+
+span {
+    color: white;
+}
