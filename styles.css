@@ -24,12 +24,11 @@ body, html {
 
 .title {
     color:hotpink;
-    background-color: 		#282828;
     margin: 10px 0px 10px 0px;
     border-radius: 10%;
     padding: 0px 3px 0px 3px;
     font-family: greatvibes;
-    font-size: 80px;
+    font-size: 70px;
     margin-left: 10vh;
     
 }
